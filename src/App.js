@@ -66,6 +66,7 @@ export default function App() {
               style={styles.button}
               onPress={() => handleLikeRepository(repository.id)}
               testID={`like-button-${repository.id}`}
+              
               >
                <Text style={styles.buttonText}>Curtir</Text>
             </TouchableOpacity>
